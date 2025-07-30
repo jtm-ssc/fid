@@ -4,6 +4,7 @@ body {
   line-height: 175%;
   margin: 0 15% 0;
   background: #faf4ef url(images/blackgoose.png) no-repeat center 100px fixed;
+  text-align: center;
 }
 header {
   margin-top: 0;
@@ -48,6 +49,10 @@ h2 {
 }
 dt {
   font-weight: bold;
+  text-align: center;
+}
+dd {
+  text-align: center;
 }
 strong {
   font-style: italic;
@@ -63,9 +68,11 @@ ul {
 .price {
   font-family: Georgia, serif;
   font-style: italic;
+  color:rgb(124, 124, 255)
 }
 p.warning, sup {
   font-size: small;
+  color: red;
 }
 .label {
   font-weight: bold;
@@ -77,4 +84,9 @@ h2 + p {
   text-align: center;
   font-style: italic;
 }
-
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
