@@ -1,0 +1,96 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: rgba(203, 255, 198, 0.5)  center fixed no-repeat;
+  text-align: center;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: 
+    url(mb\ small.png) 50% center no-repeat;
+  background-color: rgba(175, 175, 175, 0.781);
+}
+footer {
+  border-top: 3px solid #3f643a;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(153, 51, 51);
+}
+a:visited { 
+  color: #937373;
+}
+a:focus, a:hover {
+	color: #f20000;
+	background-color: #fff;
+}
+a:active {
+	color: rgb(255, 51, 0);
+	background-color: #fff;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  color: #ff0000;
+  text-shadow: #00000059 .1em .1em .1em;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: rgb(204, 0, 0)
+}
+dt {
+  font-weight: bold;
+  text-align: center;
+}
+dd {
+  text-align: center;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  text-shadow: #00000059 .1em .1em .1em;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color:rgb(124, 124, 255)
+}
+p.warning, sup {
+  font-size: small;
+  color: red;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+img {
+  margin-left: 3px;
+  margin-right: 3px;
+}
